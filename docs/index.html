@@ -7,34 +7,63 @@
     <title>anzechannel's Website</title>
     <link rel="icon" href="./favicon.png" sizes="16x16" type="image/png">
     <link rel="stylesheet" href="./css/index.css" type="text/css">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 </head>
+
 <body>
-<header>anzechannel's website</header>
-<nav>
-    <a href="index.html" class="dangqian ">首页</a>
-    <a href="duanwen.html">短文</a>
-    <a href="rizhi.html">日志</a>
-    <a href="liuyan.html">留言板</a>
-</nav>
-<aside>网页导航
-    <img src=".resource/image/11.png" alt="">
-</aside>
-<main>网页主题
-    <img src="./resource/image/11.jpg" alt="">
-</main>
-<aside>网页导航
-    <img src=".resource/image/11.png" alt="">
-</aside>
-<footer>
-    <video width="320" height="240" controls>
-        <source src="./resource/video/movie.mp4" type="video/mp4">
-        您的浏览器不支持 HTML5 video 标签。
-    </video>
-    <audio controls>
-        <source src="./resource/audio/daminggong.mp3" type="audio/mpeg">
-        您的浏览器不支持 audio 元素。
-    </audio>
-    <p>CopyRight©anzechannel</p>
-</footer>
+<div class="container">
+    <div class="logo">
+        <div class="logo-left"></div>
+        <div class="logo-mid">
+        </div>
+        <div class="logo-right"></div>
+    </div>
+    <div class="title-div"></div>
+    <div class="pages">
+        <div class="pages-left"></div>
+        <div class="pages-right"></div>
+        <div class="pages-mid">
+            <div class="contents-left">
+                <div class="contents-left-01">
+                    <audio controls loop preload="auto">
+                        <source src="./resource/audio/daminggong.mp3" type="audio/mpeg"/>
+                        您的浏览器不支持 audio 元素。
+                    </audio>
+                </div>
+                <div class="contents-left-02"></div>
+                <div class="contents-left-03"></div>
+            </div>
+            <div class="contents">
+                <div class="contents-mid-01">
+                    <video controls loop preload="auto">
+                        <source src="./resource/video/movie01.mp4" type="video/mp4"/>
+                        您的浏览器不支持 HTML5 video 标签。
+                    </video>
+                </div>
+                <div class="contents-mid-02">
+                    <video controls loop preload="auto">
+                        <source src="./resource/video/movie01.mp4" type="video/mp4"/>
+                        您的浏览器不支持 HTML5 video 标签。
+                    </video>
+                </div>
+            </div>
+            <div class="contents-right">
+                <div class="contents-right-01">
+                    <audio controls loop preload="auto">
+                        <source src="./resource/audio/dream and life.ogg" type="audio/ogg"/>
+                        您的浏览器不支持 audio 元素。
+                    </audio>
+                </div>
+                <div class="contents-right-02"></div>
+                <div class="contents-right-03"></div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <div class="copyright-left"></div>
+        <div class="copyright-mid">Copyright © 2022 anzechannel. All rights reserved.</div>
+        <div class="copyright-right"></div>
+    </div>
+</div>
 </body>
 </html>
