@@ -1,0 +1,10 @@
+一、网站Icon设置方法
+1、因为github的访问速度较慢，所以github pages网站的Icon图标不能太大，一般使用16x16像素或32x32像素的icon或png格式的正方形图片，以便兼容所有浏览器，图片必须为正方形，其他形状浏览器不能识别；
+2、在网站的根目录docs文件夹中上传favicon.ico或者favicon.png名称的图片，目前建议大小为16x16像素，注意名称必须为favicon，因为Web浏览器会自动查找具有该名称的文件；
+3、网站的首页名称必须设置为index.html，因为Web浏览器自动以该名称的文件作为首页，index.html同样直接存放在网站根目录docs文件夹中；
+4、在网站的首页index.html的head标签中添加代码：<link rel="icon" href="./favicon.png" sizes="16x16" type="image/png">或者<link rel="icon" href="./favicon.ico" sizes="32x32" type="image/x-icon">；
+5、最后，清除浏览器缓存，再次刷新首页，就可以在网页名称左侧看到网站Icon图标了。
+二、向github仓库上传文件夹的方法
+1、只能通过网页向github网站上传文件，但不能通过网页向github网站上传文件夹；
+2、若向github网站上传文件夹，只有先将目标仓库克隆到本地电脑中，然后在仓库文件夹中新增需要上传的文件夹，之后再上传至github网站。
+三、好用的CSS Grid生成器
